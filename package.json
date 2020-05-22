@@ -21,6 +21,7 @@
     "graphql-compose": "^7.15.0",
     "graphql-compose-mongoose": "^7.3.8",
     "install": "^0.13.0",
+    "mongodb": "^3.5.7",
     "mongoose": "^5.9.15",
     "ts-node": "^8.10.1",
     "ts-node-dev": "^1.0.0-pre.44",
