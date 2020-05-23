@@ -4,7 +4,7 @@ import { composeWithMongoose } from 'graphql-compose-mongoose';
 export const AnswerSchema = new Schema({
     descriptionAnswers: { type: String, required:true },
     questionTrue: { type: Boolean, default:false},
-    userId: {
+    questionId: {
         type:mongoose.Types.ObjectId,
         required:true,
         ref: 'Question'
